@@ -21,6 +21,7 @@ function decrypt3DES(data, key) {
 
 app.get("/success",(req,res)=>{
     const {idpanier,montant,ref_int,resultat,nom,date,ref_arn}=req.query;
+    console.log(montant);
     try {
        const data={
         idpanier: decrypt3DES(idpanier,'cb72817821b60c9ec4a48ecd623c9e18351c3d924e76f816ba'),
