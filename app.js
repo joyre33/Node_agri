@@ -1,5 +1,5 @@
-import express from 'express';
-import redaxios from 'redaxios';
+const express= require('express');
+const redaxios=require('redaxios');
 
 const app = express();
 const port = 4000;
