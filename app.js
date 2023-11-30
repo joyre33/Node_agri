@@ -139,7 +139,7 @@ app.get("/success", async (req, res) => {
           const { data, error } = await supabase
             .from("commande")
             .update({ etat: "Payé" })
-            .eq("id", value.idpanier)
+            .eq("id", value.ref_int)
             .select();
           if (error) throw error;
           res.send(data);
