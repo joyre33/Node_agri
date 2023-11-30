@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.5",
+    "@supabase/supabase-js": "^2.39.0",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
+    "dayjs": "^1.11.10",
     "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
     "redaxios": "^0.5.1"
   }
 }
